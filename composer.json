@@ -1,9 +1,16 @@
 {
     "name": "skybase/skygen",
-    "description": "A short description of what your package does",
-    "require": {
-        "php": ">=8.2",
-        "another-vendor/package": "1.*"
-    }
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Skybase\\Skygen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sonaam",
+            "email": "sonaam.hitang@gmail.com"
+        }
+    ],
+    "require": {}
 }
-
